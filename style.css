@@ -1,0 +1,79 @@
+/* Style général pour le corps de la page */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color:#8A7090 ;
+    color:#7EBDC2 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style pour les conteneurs de formulaires */
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour chaque formulaire individuel */
+.form {
+    background-color: #8D3B72;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Style pour les étiquettes des formulaires */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style pour les champs de saisie des formulaires */
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* Style pour les boutons des formulaires */
+button {
+    background-color: #7EBDC2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9AC4F8;
+}
+
+/* Style pour la sélection d'image */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour l'affichage de l'image sélectionnée */
+#image {
+    margin-top: 20px;
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

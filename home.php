@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue à la Pizzeria de Luigi et Mario</title>
+    <title>Il mondo di Mario e Luigi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,8 +14,6 @@
         <ul>
             <li><a href="create_account.php">Créer un compte</a></li>
             <li><a href="reserve_table.php">Réserver une table</a></li>
-            <li><a href="order_pizza.php">Commander des pizzas</a></li>
-            <li><a href="admin_dashboard.php">Admin Dashboard</a></li>
             <li><a href="login.php">Connexion</a></li>
         </ul>
     </nav>

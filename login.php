@@ -17,5 +17,13 @@
         <br>
         <button type="submit">Se connecter</button>
     </form>
+    <nav>
+        <ul>
+            <li><a href="order_pizza.php">Commander des pizzas</a></li>
+            <li><a href="admin_dashboard.php">Admin Dashboard</a></li>
+
+        </ul>
+    </nav>
 </body>
 </html>
+
