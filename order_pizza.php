@@ -16,6 +16,8 @@
             <option value="margherita">Margherita</option>
             <option value="pepperoni">Pepperoni</option>
             <option value="vegetarienne">Végétarienne</option>
+            <option value="nimet">Nimet</option>
+
         </select>
         <label for="taille">Taille:</label>
         <select id="taille" name="taille">
